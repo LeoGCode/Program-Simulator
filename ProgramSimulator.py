@@ -1,5 +1,6 @@
 # Implementation of a simulator of programs, interpreters and translators based on Tombstone diagrams
-# (a) It's able to handle programs, interpreters and translators. These can be:
+# This program has the following characteristics:
+# (a) It's able to handle programs, interpreters and translators, these can be.
 # - PROGRAM <name> <language>.
 # Represents a program identified by <name> written in <language>.
 # - INTERPRETER <base_language> <language>
@@ -25,8 +26,7 @@
 # iii. EXIT
 # You must exit the simulator.
 #
-# At the end of the execution of each action, the program shall prompt the user for the next action.
-# to the user.
+# At the end of the execution of each action, the program shall prompt to the user for the next action.
 
 import networkx as nx
 import matplotlib.pyplot as plt
