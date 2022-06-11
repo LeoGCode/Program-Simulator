@@ -39,3 +39,5 @@ associated program.
       Show the graph representation of the programs and his posibility to be execute on some language
   
 At the end of the execution of each action, the program shall prompt to the user for the next action.
+    
+A digraph was used for the implementation of the model, where the nodes are the different languages defined and the edges are the possibility of executing some language based on another, when defining an interpreter a edge is added from the language that can be interpreted to the language in which it was written, in the case of translators, the side from the source language to the target language is only added if there is a path in the network from the base language to "LOCAL", for this reason when a translator is added it will be added to a list of translators that do not have such connection so that when adding a connection, this list will be searched to see if the translator can be updated. 
