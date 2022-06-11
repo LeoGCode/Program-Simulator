@@ -33,5 +33,9 @@ associated program.
     - EXIT
   
       Exit the simulator.
+    
+    - DISPLAY
+    
+      Show the graph representation of the programs and his posibility to be execute on some language
   
 At the end of the execution of each action, the program shall prompt to the user for the next action.
