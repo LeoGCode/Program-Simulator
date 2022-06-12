@@ -60,7 +60,7 @@ class ProgramSimulator:
                     continue
                 self.define(param)
 
-            elif first_param == "EXECUTABLE" or first_param == "2" or first_param == "EXECUTABLE":
+            elif first_param == "EXECUTABLE" or first_param == "2" or first_param == "EJECUTABLE":
                 # Verify the number of parameters
                 if len(param) != 1:
                     print("Error: Invalid number of parameters")
